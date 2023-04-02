@@ -66,6 +66,7 @@
             this.btnAute.TabIndex = 2;
             this.btnAute.Text = "Autentificare";
             this.btnAute.UseVisualStyleBackColor = false;
+            this.btnAute.Click += new System.EventHandler(this.btnAute_Click);
             // 
             // btnInreg
             // 
@@ -77,6 +78,7 @@
             this.btnInreg.TabIndex = 3;
             this.btnInreg.Text = "Inregistrare";
             this.btnInreg.UseVisualStyleBackColor = false;
+            this.btnInreg.Click += new System.EventHandler(this.btnInreg_Click);
             // 
             // Start
             // 

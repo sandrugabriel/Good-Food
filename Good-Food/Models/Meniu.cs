@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Good_Food.Models
 {
@@ -29,6 +30,19 @@ namespace Good_Food.Models
 
         }
 
+        public Meniu(string textul)
+        {
+
+            string[] prop = textul.Split(';');
+
+            this.id_produs = int.Parse(prop[0]);
+            this.denumire_produs = prop[1];
+            this.descriere = prop[2];
+            this.pret = int.Parse(prop[3]);
+            this.kcal = int.Parse(prop[4]);
+            this.felul = int.Parse(prop[5]);
+
+        }
 
     }
 }
