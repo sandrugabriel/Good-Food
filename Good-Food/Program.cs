@@ -17,7 +17,7 @@ namespace Good_Food
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Optiuni(354025211));
+            Application.Run(new Start());
         }
     }
 }

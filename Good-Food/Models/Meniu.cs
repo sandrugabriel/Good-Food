@@ -44,5 +44,36 @@ namespace Good_Food.Models
 
         }
 
+        public int getId_produs()
+        {
+            return id_produs;
+        }
+
+        public string getDenumire_produs()
+        {
+            return denumire_produs;
+        }
+
+        public string getDescriere()
+        {
+            return descriere;
+        }
+
+        public int getPret()
+        {
+            return pret;
+        }
+
+        public int getkcal()
+        {
+            return kcal;
+        }
+
+        public int getFelul()
+        {
+            return felul;
+        }
+
+
     }
 }
