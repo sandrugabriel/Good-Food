@@ -91,6 +91,9 @@
     <Compile Include="Models\Comenzi.cs" />
     <Compile Include="Models\Meniu.cs" />
     <Compile Include="Models\SubComenzi.cs" />
+    <Compile Include="Panel-uri\pnlLogin.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Panel-uri\pnlSignUp.cs">
       <SubType>Component</SubType>
     </Compile>

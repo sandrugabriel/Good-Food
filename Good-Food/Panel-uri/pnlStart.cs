@@ -76,8 +76,9 @@ namespace Good_Food.Panel_uri
 
         private void btnAute_Click(object sender, EventArgs e)
         {
-            Autentificare_client form = new Autentificare_client();
-            form.Show();
+            this.form.removePnl("pnlStart");
+            this.form.Controls.Add(new pnlLogin(form));
+
         }
 
 
