@@ -70,9 +70,8 @@ namespace Good_Food.Panel_uri
 
         private void btnInreg_Click(object sender, EventArgs e)
         {
-
-            Creare_cont_client form = new Creare_cont_client();
-            form.Show();
+            this.form.removePnl("pnlStart");
+            this.form.Controls.Add(new pnlSignUp(form));
         }
 
         private void btnAute_Click(object sender, EventArgs e)

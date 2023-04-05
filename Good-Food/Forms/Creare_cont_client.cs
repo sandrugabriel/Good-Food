@@ -98,5 +98,10 @@ namespace Good_Food.Forms
 
                 
         }
+
+        private void Creare_cont_client_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

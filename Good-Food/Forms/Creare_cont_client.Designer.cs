@@ -120,7 +120,7 @@
             this.txtNume.Font = new System.Drawing.Font("Microsoft YaHei UI Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNume.Location = new System.Drawing.Point(312, 234);
             this.txtNume.Name = "txtNume";
-            this.txtNume.Size = new System.Drawing.Size(204, 31);
+            this.txtNume.Size = new System.Drawing.Size(0, 31);
             this.txtNume.TabIndex = 8;
             // 
             // txtPrenume
@@ -197,6 +197,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Creare_cont_client";
             this.Text = "Creare_cont_client";
+            this.Load += new System.EventHandler(this.Creare_cont_client_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
