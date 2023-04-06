@@ -109,7 +109,11 @@ namespace Good_Food.Controllers
         }
 
 
-        
+        public List<Meniu> getMeniuri()
+        {
+
+            return meniuri;
+        }
 
     }
 }

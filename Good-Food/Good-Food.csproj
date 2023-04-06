@@ -50,6 +50,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -91,6 +92,12 @@
     <Compile Include="Models\Comenzi.cs" />
     <Compile Include="Models\Meniu.cs" />
     <Compile Include="Models\SubComenzi.cs" />
+    <Compile Include="Panel-uri\pnlLogin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Panel-uri\pnlOptiuni.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Panel-uri\pnlSignUp.cs">
       <SubType>Component</SubType>
     </Compile>

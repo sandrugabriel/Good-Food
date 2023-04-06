@@ -225,7 +225,7 @@ namespace Good_Food.Panel_uri
                 string textul = id.ToString() + ";" + parola + ";" + nume + ";" + prenume + ";" + adresa + ";" + email;
                 controllerClient.saveNewClient(textul);
                 this.form.removePnl("pnlSignUp");
-
+                this.form.Controls.Add(new pnlOptiuni(id,form));
 
             }
 

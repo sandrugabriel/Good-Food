@@ -1,4 +1,6 @@
-﻿using Good_Food.Forms;
+﻿using Good_Food.Controllers;
+using Good_Food.Forms;
+using Good_Food.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +20,7 @@ namespace Good_Food
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Start());
+
         }
     }
 }

@@ -20,7 +20,7 @@ namespace Good_Food
         {
             InitializeComponent();
 
-            this.Controls.Add(new pnlStart(this));
+            this.Controls.Add(new pnlOptiuni(354025211,this));
 
         }
 
