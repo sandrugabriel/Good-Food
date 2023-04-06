@@ -64,24 +64,6 @@
   <ItemGroup>
     <Compile Include="Controllers\ControllerClient.cs" />
     <Compile Include="Controllers\ControllerMeniu.cs" />
-    <Compile Include="Forms\Autentificare_client.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Autentificare_client.Designer.cs">
-      <DependentUpon>Autentificare_client.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Creare_cont_client.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Creare_cont_client.Designer.cs">
-      <DependentUpon>Creare_cont_client.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Optiuni.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Optiuni.Designer.cs">
-      <DependentUpon>Optiuni.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forms\Start.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,10 +71,15 @@
       <DependentUpon>Start.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Client.cs" />
-    <Compile Include="Models\Comenzi.cs" />
     <Compile Include="Models\Meniu.cs" />
     <Compile Include="Models\SubComenzi.cs" />
+    <Compile Include="Panel-uri\pnlFinal.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Panel-uri\pnlLogin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Panel-uri\pnlOptiuni.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Panel-uri\pnlSignUp.cs">
@@ -103,15 +90,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Autentificare_client.resx">
-      <DependentUpon>Autentificare_client.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Creare_cont_client.resx">
-      <DependentUpon>Creare_cont_client.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Optiuni.resx">
-      <DependentUpon>Optiuni.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

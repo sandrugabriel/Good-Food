@@ -1,5 +1,4 @@
-﻿using Good_Food.Forms;
-using Good_Food.Panel_uri;
+﻿using Good_Food.Panel_uri;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +19,7 @@ namespace Good_Food
         {
             InitializeComponent();
 
-            this.Controls.Add(new pnlOptiuni(354025211,this));
+            this.Controls.Add(new pnlStart(this));
 
         }
 
@@ -45,14 +44,10 @@ namespace Good_Food
         private void btnInreg_Click(object sender, EventArgs e)
         {
             
-            Creare_cont_client form = new Creare_cont_client();
-            form.Show();
         }
 
         private void btnAute_Click(object sender, EventArgs e)
         {
-            Autentificare_client form = new Autentificare_client();
-            form.Show();
         }
     }
 }

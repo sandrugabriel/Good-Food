@@ -36,6 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(621, 494);
+            this.MaximumSize = new System.Drawing.Size(639, 541);
             this.Name = "Start";
             this.Text = "Start";
             this.ResumeLayout(false);
