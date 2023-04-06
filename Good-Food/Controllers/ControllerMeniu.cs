@@ -108,11 +108,20 @@ namespace Good_Food.Controllers
 
         }
 
-
         public List<Meniu> getMeniuri()
         {
 
             return meniuri;
+        }
+
+        public void saveComanda(string textul)
+        {
+
+            string path = Application.StartupPath + @"/data/comenzi.txt";
+
+            File.AppendAllText(path, textul + "\n");
+
+
         }
 
     }

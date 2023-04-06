@@ -1,5 +1,4 @@
 ﻿using Good_Food.Controllers;
-using Good_Food.Forms;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -44,6 +43,7 @@ namespace Good_Food.Panel_uri
         {
             form = form1;
             controllerClient = new ControllerClient();
+            this.form.MaximumSize = new System.Drawing.Size(587, 734);
             erori = new List<string>();
             this.form.Size = new System.Drawing.Size(587, 734);
             this.Name = "pnlSignUp";

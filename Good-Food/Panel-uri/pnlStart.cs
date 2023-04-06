@@ -1,5 +1,4 @@
-﻿using Good_Food.Forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -72,12 +71,16 @@ namespace Good_Food.Panel_uri
         {
             this.form.removePnl("pnlStart");
             this.form.Controls.Add(new pnlSignUp(form));
+            this.form.Size = new System.Drawing.Size(692, 565);
+            this.form.MaximumSize = new System.Drawing.Size(692, 565);
         }
 
         private void btnAute_Click(object sender, EventArgs e)
         {
             this.form.removePnl("pnlStart");
             this.form.Controls.Add(new pnlLogin(form));
+            this.form.Size = new System.Drawing.Size(692, 565);
+            this.form.MaximumSize = new System.Drawing.Size(692, 565);
 
         }
 

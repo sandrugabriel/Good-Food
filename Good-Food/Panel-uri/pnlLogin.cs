@@ -8,6 +8,8 @@ using System.Windows.Forms;
 
 namespace Good_Food.Panel_uri
 {
+    internal class pnlLogin : Panel
+    {
         Start form;
 
         TextBox txtParola;
@@ -23,6 +25,7 @@ namespace Good_Food.Panel_uri
         {
             controllerClient = new ControllerClient();
             form = form1;
+            this.form.MaximumSize = new System.Drawing.Size(500, 430);
             this.form.Size = new System.Drawing.Size(500, 430);
             this.Name = "pnlLogin";
             this.Size = this.form.Size;
@@ -95,6 +98,7 @@ namespace Good_Food.Panel_uri
             {
                 this.form.removePnl("pnlLogin");
                 int id = controllerClient.idByEmaiParo(txtEmail.Text, txtParola.Text);
+                this.form.Controls.Add(new pnlOptiuni(id, this.form));
             }
             else
             {
